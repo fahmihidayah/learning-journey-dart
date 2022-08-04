@@ -8,3 +8,7 @@ double findArea(double width, double height) => width * height;
 void logData({String title = "", String message = ""}) {
   print("${title} : ${message}");
 }
+
+int add([int first = 0, int second = 0]) {
+  return first + second;
+}
