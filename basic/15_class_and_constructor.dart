@@ -1,7 +1,15 @@
-void main() {}
+void main() {
+  var view = View(100, 200);
+  var viewOk = View.createCenter();
+}
 
 class View {
-  int w;
-  int h;
-  View(this.x, this.h);
+  late int w;
+  late int h;
+  View(this.w, this.h);
+
+  View.createCenter() {
+    this.w = 100;
+    this.h = 100;
+  }
 }
