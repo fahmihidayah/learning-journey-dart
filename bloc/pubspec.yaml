@@ -1,0 +1,12 @@
+name: bloc_basic
+description: A basic bloc app
+
+pusblish : 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies: 
+  bloc: ^8.0.0
